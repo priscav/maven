@@ -1,13 +1,10 @@
 package com.mgh.edd;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        String nombre=args.length>0?args[0]:"";
+        Saluda.saluda(nombre);
     }
 }
